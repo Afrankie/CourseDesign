@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="WeekTitleTextView">
+        <item name="android:layout_width">@dimen/block_width</item>
+        <item name="android:layout_height">@dimen/bar_height</item>
+        <item name="android:textColor">#F7F3F3</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="numView">
+        <item name="android:layout_width">@dimen/num_width</item>
+        <item name="android:layout_height">@dimen/num_height</item>
+        <item name="android:textColor">#F7F3F3</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="courseStyle">
+        <item name="android:layout_height">@dimen/table_height</item>
+        <item name="android:layout_width">@dimen/table_height</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_bar_height">30dp</dimen>
+    <dimen name="bar_height">25dp</dimen>
+    <dimen name="num_width">30.47dp</dimen>
+    <dimen name="num_height">45dp</dimen>
+    <dimen name="block_width">76.19dp</dimen>
+    <dimen name="block_height">90dp</dimen>
+    <dimen name="dialog_width">180dp</dimen>
+    <dimen name="dialog_height">100dp</dimen>
+    <dimen name="table_height">50px</dimen>
+    <dimen name="table_text_size">10dp</dimen>
+    <dimen name="exam_table_height">30dp</dimen>
+    <dimen name="exam_table_size">20sp</dimen>
+    <dimen name="alpha">0.7</dimen>
+    <dimen name="card">8dp</dimen>
+    <dimen name="card_size">30sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

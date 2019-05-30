@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.weigan.loopview.LoopView
+            android:id="@+id/loopView1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:awv_textsize="18"
+            app:awv_itemsVisibleCount="2"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1" />
+
+        <com.weigan.loopview.LoopView
+            android:id="@+id/loopView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:awv_itemsVisibleCount="2"
+            app:awv_textsize="18"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dialog_button"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认" />
+</android.support.constraint.ConstraintLayout>
